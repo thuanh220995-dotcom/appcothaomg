@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Nunito', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --color-hoaban-pink: #F5A4BF;
+    --color-hoaban-pastel: #FBE1EC;
+    --color-hoaban-purple: #9B7BC0;
+    --color-hoaban-green: #7DBCA0;
+    --color-hoaban-yellow: #FFD878;
+    --color-hoaban-cream: #FFF9F2;
+    --color-hoaban-sky: #BFE7F4;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-hoaban-cream);
+    color: #1e293b;
+    overflow-x: hidden;
+  }
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.reduced-motion *,
+.reduced-motion ::before,
+.reduced-motion ::after {
+  animation: none !important;
+  transition: none !important;
+}
+
+/* Floating animation for subtle petals and mascot */
+@keyframes softFloat {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(2deg);
+  }
+}
+
+.animate-soft-float {
+  animation: softFloat 4s ease-in-out infinite;
+}
+
+@keyframes gentlePulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.04);
+  }
+}
+
+.animate-gentle-pulse {
+  animation: gentlePulse 2.5s ease-in-out infinite;
+}
+
