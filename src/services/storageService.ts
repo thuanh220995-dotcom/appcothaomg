@@ -871,40 +871,40 @@ export const SEED_QUESTIONS: Question[] = [
   },
 ];
 
-// 2. KẾ HOẠCH HOẠT ĐỘNG GIÁO DỤC MẪU (3 GIÁO ÁN CHUẨN)
+// 2. KẾ HOẠCH HOẠT ĐỘNG GIÁO DỤC MẪU (3 GIÁO ÁN CHUẨN MẪU GIÁO NHỠ 4-5 TUỔI)
 export const SEED_LESSON_PLANS: LessonPlan[] = [
   {
     id: 'lp-01',
-    title: 'Khám phá sắc hoa ban Điện Biên và đếm số lượng trong phạm vi 10',
+    title: 'Khám phá sắc hoa ban Điện Biên và đếm số lượng trong phạm vi 5',
     topic: 'Quê hương Điện Biên & Nhận biết toán',
     domain: 'Phát triển nhận thức',
-    ageGroup: '5 - 6 tuổi',
-    duration: '30 - 35 phút',
+    ageGroup: '4 - 5 tuổi',
+    duration: '25 - 30 phút',
     objectives: {
-      knowledge: 'Trẻ nhận biết hoa ban là loài hoa đặc trưng của Điện Biên; đếm thành thạo các nhóm đối tượng có số lượng trong phạm vi 10, nhận biết các chữ số từ 1 đến 10.',
-      skills: 'Rèn kỹ năng đếm từ trái sang phải, không bỏ sót; kỹ năng tương tác nhấp chọn trên ứng dụng Hoa Ban AI; kỹ năng làm việc nhóm.',
+      knowledge: 'Trẻ nhận biết hoa ban là loài hoa đặc trưng của Điện Biên; đếm thành thạo các nhóm đối tượng có số lượng trong phạm vi 5, nhận biết các chữ số từ 1 đến 5.',
+      skills: 'Rèn kỹ năng đếm từ trái sang phải, chạm ngón tay từng đối tượng; kỹ năng tương tác nhấp chọn trên ứng dụng Hoa Ban AI; kỹ năng phát âm to rõ.',
       attitude: 'Trẻ hào hứng tham gia hoạt động, biết yêu quý và bảo vệ cây xanh, tự hào về vẻ đẹp quê hương Thanh Yên - Điện Biên.',
     },
     preparation: {
-      teacher: 'Màn hình tương tác hoặc máy tính bảng kết nối ứng dụng Hoa Ban AI; hình ảnh hoa ban thật; rổ 10 bông hoa ban giấy xốp; thẻ số 1-10.',
-      children: 'Mỗi trẻ một rổ đồ chơi gồm 10 bông hoa ban và các thẻ số từ 1 đến 10.',
+      teacher: 'Màn hình tương tác hoặc máy tính bảng kết nối ứng dụng Hoa Ban AI; hình ảnh hoa ban thật; rổ 5 bông hoa ban giấy xốp; thẻ số 1-5.',
+      children: 'Mỗi trẻ một rổ đồ chơi gồm 5 bông hoa ban và các thẻ số từ 1 đến 5.',
       space: 'Lớp học mầm non rộng rãi, thoáng mát, sàn sạch.',
     },
     introduction: 'Cô và trẻ cùng vận động theo bài hát "Hoa ban trắng của em". Trò chuyện về mùa xuân Điện Biên và câu đố về bông hoa ban 5 cánh xinh đẹp.',
-    coreActivity: '1. Ôn đếm trong phạm vi 8: Cho trẻ tìm các cành hoa xung quanh lớp. 2. Đếm và tạo nhóm trong phạm vi 10: Cô hướng dẫn trẻ xếp 10 bông hoa ban ra bảng, đếm lần lượt 1 đến 10. Trẻ gắn thẻ số 10 tương ứng. 3. Thử nghiệm trên ứng dụng Hoa Ban AI: Trẻ lần lượt lên màn hình tương tác chơi trò chơi "Vườn hoa đếm số".',
-    reinforcementGame: 'Trò chơi "Kết chùm hoa ban 10 cánh": Trẻ vừa đi vừa hát, khi cô hô "Kết chùm 10 bông hoa", trẻ nhanh chóng tạo thành vòng tròn 10 bạn.',
+    coreActivity: '1. Ôn đếm trong phạm vi 3: Cho trẻ tìm các cành hoa xung quanh lớp. 2. Đếm và tạo nhóm trong phạm vi 5: Cô hướng dẫn trẻ xếp 5 bông hoa ban ra bảng, đếm lần lượt 1 đến 5. Trẻ gắn thẻ số 5 tương ứng. 3. Thử nghiệm trên ứng dụng Hoa Ban AI: Trẻ lần lượt lên màn hình tương tác chơi trò chơi "Vườn hoa đếm số".',
+    reinforcementGame: 'Trò chơi "Kết chùm hoa ban 5 cánh": Trẻ vừa đi vừa hát, khi cô hô "Kết chùm 5 bông hoa", trẻ nhanh chóng tạo thành vòng tròn 5 bạn.',
     guidingQuestions: [
       'Bông hoa ban này có màu gì các con?',
       'Chúng mình cùng đếm xem có tất cả bao nhiêu bông hoa?',
-      'Để chỉ số lượng 10 bông hoa thì ta dùng thẻ số mấy?',
+      'Để chỉ số lượng 5 bông hoa thì ta dùng thẻ số mấy?',
     ],
-    offlineActivity: 'Bé dùng giấy màu xốp và sáp màu tạo hình vườn hoa ban trên đồi A1 hoặc quanh trường mầm non Thanh Yên.',
+    offlineActivity: 'Bé dùng giấy màu xốp và sáp màu dán bông hoa ban 5 cánh tặng mẹ và cô giáo.',
     differentiatedSupport: {
-      supportNeeded: 'Cô ngồi cạnh hỗ trợ trẻ đếm chạm từng bông hoa bằng ngón tay trỏ, đếm chậm theo nhịp.',
+      supportNeeded: 'Cô ngồi cạnh hỗ trợ trẻ đếm chạm từng bông hoa bằng ngón tay trỏ, đếm chậm theo nhịp 1, 2, 3, 4, 5.',
       standard: 'Trẻ tự đếm và chọn thẻ số chính xác, thao tác tự tin trên màn hình cảm ứng.',
-      advanced: 'Khuyến khích trẻ tách 10 bông hoa ban thành 2 phần theo nhiều cách khác nhau (1-9, 2-8, 3-7, 4-6, 5-5).',
+      advanced: 'Khuyến khích trẻ tách 5 bông hoa ban thành 2 phần theo nhiều cách khác nhau (1-4, 2-3).',
     },
-    observationCriteria: 'Khả năng đếm chính xác đến 10, nhận biết mặt số, sự hứng thú khi tương tác với ứng dụng Hoa Ban AI.',
+    observationCriteria: 'Khả năng đếm chính xác đến 5, nhận biết mặt số, sự hứng thú khi tương tác với ứng dụng Hoa Ban AI.',
     safetyNotes: 'Chú ý an toàn khi trẻ di chuyển quanh lớp, giữ khoảng cách mắt hợp lý với màn hình tương tác.',
     wrapUp: 'Cô nhận xét, tuyên dương các bạn nhỏ và cùng hát bài chào tạm biệt.',
     createdAt: '2026-10-22T08:00:00.000Z',
@@ -912,33 +912,33 @@ export const SEED_LESSON_PLANS: LessonPlan[] = [
   },
   {
     id: 'lp-02',
-    title: 'Học cách chào hỏi lễ phép và tự tin giao tiếp chuẩn bị vào lớp Một',
-    topic: 'Kỹ năng sống & Chuẩn bị vào lớp Một',
+    title: 'Học cách chào hỏi lễ phép và mạnh dạn tự tin giao tiếp trong lớp học',
+    topic: 'Kỹ năng sống & Tự lập',
     domain: 'Phát triển tình cảm và kỹ năng xã hội',
-    ageGroup: '5 - 6 tuổi',
-    duration: '30 - 35 phút',
+    ageGroup: '4 - 5 tuổi',
+    duration: '25 - 30 phút',
     objectives: {
-      knowledge: 'Trẻ hiểu được ý nghĩa của lời chào hỏi lễ phép khi gặp thầy cô, bố mẹ và khách đến trường; hiểu được sự khác nhau giữa học mầm non và học sinh lớp Một.',
+      knowledge: 'Trẻ hiểu được ý nghĩa của lời chào hỏi lễ phép khi gặp thầy cô, bố mẹ và bạn bè trong trường mầm non.',
       skills: 'Rèn tư thế khoanh tay, mắt nhìn thẳng, nói rõ ràng câu "Cháu chào cô ạ!"; kỹ năng lắng nghe và trả lời trọn câu.',
-      attitude: 'Trẻ tự giác, ngoan ngoãn, háo hức tâm thế trở thành học sinh lớp Một chăm ngoan.',
+      attitude: 'Trẻ tự giác, ngoan ngoãn, hòa đồng, yêu quý bạn bè và cô giáo.',
     },
     preparation: {
-      teacher: 'Video clip tình huống bé chào hỏi; ba lô học sinh mẫu; truyện tranh "Ban Ban đến trường mới" trên Hoa Ban AI.',
+      teacher: 'Video clip tình huống bé chào hỏi; rối tay hoa ban Ban Ban trên ứng dụng Hoa Ban AI.',
       children: 'Trang phục gọn gàng, tâm thế thoải mái.',
       space: 'Góc đóng vai của lớp học mầm non.',
     },
-    introduction: 'Ban Ban xuất hiện trên màn hình chào các bạn nhỏ: "Xin chào các bạn lớp 5 tuổi A trường mầm non Thanh Yên!". Cho trẻ đáp lại lời chào.',
-    coreActivity: 'Cô đóng vai cô giáo tiểu học, một bạn đóng vai học sinh lớp Một mang cặp sách đến lớp. Hướng dẫn trẻ cách gõ cửa nhẹ nhàng, bước vào lớp và chào cô giáo. Cho từng nhóm trẻ thực hành đóng vai.',
-    reinforcementGame: 'Trò chơi tương tác "Bé chọn điều hay" trên ứng dụng Hoa Ban AI: chọn hành vi đúng khi gặp người lớn và thầy cô.',
+    introduction: 'Ban Ban xuất hiện trên màn hình chào các bạn nhỏ: "Xin chào các bạn lớp mẫu giáo nhỡ 4-5 tuổi trường mầm non Thanh Yên!". Cho trẻ đáp lại lời chào.',
+    coreActivity: 'Cô đóng vai cô giáo, một bạn đóng vai bé ngoan đến lớp. Hướng dẫn trẻ cách khoanh tay nhẹ nhàng và chào cô giáo. Cho từng nhóm trẻ 4-5 tuổi thực hành đóng vai.',
+    reinforcementGame: 'Trò chơi tương tác "Bé chọn điều hay" trên ứng dụng Hoa Ban AI: chọn hành vi đúng khi gặp người lớn và bạn bè.',
     guidingQuestions: [
-      'Khi gặp người lớn, tư thế chào của chúng mình thế nào là đẹp nhất?',
+      'Khi gặp cô giáo vào buổi sáng, chúng mình chào thế nào?',
       'Tại sao khi nói chuyện với cô giáo ta lại cần có từ "ạ" ở cuối câu?',
     ],
-    offlineActivity: 'Trẻ thực hành chào các cô chú nhân viên, bác bảo vệ và cô hiệu trưởng trong khuôn viên trường mầm non Thanh Yên.',
+    offlineActivity: 'Trẻ thực hành chào các cô bác trong khuôn viên trường mầm non Thanh Yên.',
     differentiatedSupport: {
       supportNeeded: 'Khích lệ những trẻ còn nhút nhát, cho trẻ tập chào cùng một bạn bạo dạn hơn.',
       standard: 'Trẻ tự tin chào hỏi to, rõ ràng, lễ phép.',
-      advanced: 'Trẻ đóng vai dẫn dắt bạn khác xử lý tình huống khi gặp khách đến thăm lớp.',
+      advanced: 'Trẻ dẫn dắt bạn khác cùng chào đón bạn mới vào lớp.',
     },
     observationCriteria: 'Thái độ tự tin, tư thế đứng ngay ngắn, ngữ điệu giọng nói khi chào hỏi.',
     safetyNotes: 'Nhắc nhở trẻ đi lại nhẹ nhàng, không xô đẩy khi đóng vai.',
@@ -951,35 +951,35 @@ export const SEED_LESSON_PLANS: LessonPlan[] = [
     title: 'Kể chuyện: Chuyến du hành mùa xuân của bé hoa ban Ban Ban',
     topic: 'Quê hương Điện Biên & Văn học mầm non',
     domain: 'Phát triển ngôn ngữ',
-    ageGroup: '5 - 6 tuổi',
-    duration: '30 - 35 phút',
+    ageGroup: '4 - 5 tuổi',
+    duration: '25 - 30 phút',
     objectives: {
-      knowledge: 'Trẻ nhớ tên truyện, các nhân vật (Ban Ban, Chị Bướm Trắng, Bác Gió Ngàn); hiểu nội dung câu chuyện về lòng dũng cảm, tình bạn và tình yêu quê hương Điện Biên.',
+      knowledge: 'Trẻ nhớ tên truyện, các nhân vật (Ban Ban, Chị Bướm Trắng, Bác Gió Ngàn); hiểu nội dung câu chuyện về tình bạn và vẻ đẹp hoa ban Điện Biên.',
       skills: 'Rèn kỹ năng nghe hiểu tiếng Việt chuẩn; trả lời câu hỏi mạch lạc, rõ ràng; tập kể lại đoạn truyện theo tranh minh họa.',
-      attitude: 'Trẻ yêu mến cảnh đẹp quê hương, biết đoàn kết giúp đỡ bạn bè xung quanh.',
+      attitude: 'Trẻ yêu mến cảnh đẹp quê hương, biết yêu thương, chia sẻ cùng bạn bè.',
     },
     preparation: {
       teacher: 'Trình chiếu truyện "Chuyện kể cùng Ban Ban" trên ứng dụng; mô hình rối hoa ban; âm thanh suối reo chim hót.',
       children: 'Mũ múa hoa ban, hoa giấy cài áo.',
       space: 'Phòng học sắp xếp hình chữ U ấm cúng.',
     },
-    introduction: 'Cô giả tiếng chim hót líu lo, dẫn dắt trẻ cùng bay theo ngọn gió xuân đến thung lũng Mường Thanh ngập tràn hoa ban trắng.',
+    introduction: 'Cô giả tiếng chim hót líu lo, dẫn dắt trẻ cùng ngắm nhìn thung lũng Mường Thanh ngập tràn hoa ban trắng.',
     coreActivity: 'Cô kể chuyện diễn cảm lần 1 kết hợp cử chỉ điệu bộ. Kể lần 2 kết hợp giọng đọc tiếng Việt và tranh động trên màn hình Hoa Ban AI. Đàm thoại trích dẫn nội dung.',
     reinforcementGame: 'Trò chơi "Ai nhớ tài thế": Trẻ trả lời các câu hỏi nhanh về câu chuyện trên ứng dụng.',
     guidingQuestions: [
       'Câu chuyện có tên là gì? Trong truyện có những ai?',
-      'Ban Ban đã làm gì khi thấy bạn Bướm bị ướt cánh?',
+      'Ban Ban đã làm gì khi thấy bạn Bướm bị lạc mẹ?',
       'Nếu là con, con sẽ làm gì để giúp đỡ bạn?',
     ],
-    offlineActivity: 'Trẻ vẽ và tô màu nhân vật Ban Ban theo cảm nhận sáng tạo của mình.',
+    offlineActivity: 'Trẻ tô màu nhân vật Ban Ban theo cảm nhận sáng tạo của mình.',
     differentiatedSupport: {
       supportNeeded: 'Gợi ý từ khóa bằng hình ảnh trực quan để trẻ trả lời trọn câu.',
-      standard: 'Trẻ trả lời mạch lạc, sử dụng câu ghép đơn giản.',
-      advanced: 'Khuyến khích trẻ sáng tạo kết thúc mới cho câu chuyện.',
+      standard: 'Trẻ trả lời mạch lạc, diễn đạt rõ ràng.',
+      advanced: 'Khuyến khích trẻ cùng kể lại phân đoạn mình thích nhất.',
     },
     observationCriteria: 'Mức độ chú ý nghe kể chuyện, khả năng ghi nhớ chi tiết và cảm xúc bộc lộ qua nét mặt.',
     safetyNotes: 'Đảm bảo ánh sáng lớp học chan hòa, ấm áp.',
-    wrapUp: 'Cô và cả lớp cùng múa điệu xòe hoa chúc mừng Ban Ban đã trưởng thành.',
+    wrapUp: 'Cô và cả lớp cùng múa điệu xòe hoa chúc mừng Ban Ban.',
     createdAt: '2026-10-26T08:00:00.000Z',
     status: 'approved',
   },
@@ -989,10 +989,10 @@ export const SEED_LESSON_PLANS: LessonPlan[] = [
 export const SEED_STORY: Story = {
   id: 'story-01',
   title: 'Chuyến Khám Phá Thung Lũng Mường Thanh của Ban Ban',
-  summary: 'Câu chuyện kể về bé hoa ban Ban Ban rạng rỡ, cùng bạn bè ngắm nhìn cánh đồng lúa, dòng sông Nậm Rốm và học bao điều hay để chuẩn bị vào lớp Một.',
+  summary: 'Câu chuyện kể về bé hoa ban Ban Ban rạng rỡ, cùng bạn bè ngắm nhìn cánh đồng lúa, dòng sông Nậm Rốm và học bao điều hay ở lớp mẫu giáo 4-5 tuổi.',
   author: 'Cô giáo Trần Thị Bích Thảo (Trường MN Thanh Yên)',
   createdAt: '2026-10-20T08:00:00.000Z',
-  moralLesson: 'Biết yêu thiên nhiên, đoàn kết giúp đỡ bạn bè và chăm ngoan học giỏi mỗi ngày.',
+  moralLesson: 'Biết yêu thiên nhiên quê hương, đoàn kết giúp đỡ bạn bè và chăm ngoan nghe lời cô giáo, ba mẹ.',
   sections: [
     {
       order: 1,
@@ -1024,38 +1024,38 @@ export const SEED_STORY: Story = {
     },
     {
       order: 5,
-      content: 'Mùa thu tới, Ban Ban thấy các bạn nhỏ 5-6 tuổi xúng xính mang ba lô bước vào lớp Một. Ban Ban vẫy những cánh hoa xinh chúc các bạn tự tin học chữ, trở thành con ngoan trò giỏi.',
-      speechNarration: 'Ban Ban vẫy những cánh hoa xinh xắn chúc tất cả các bạn nhỏ tự tin bước vào lớp Một, mỗi ngày đến trường là một ngày vui!',
-      illustrationIdea: 'Ban Ban nở rộ rực rỡ chào tạm biệt các bạn nhỏ tự tin mang ba lô vào lớp Một.',
-      comprehensionQuestion: 'Ban Ban đã chúc các bạn nhỏ điều gì khi vào lớp Một?',
+      content: 'Mỗi ngày đến lớp mẫu giáo nhỡ 4-5 tuổi, Ban Ban cùng các bạn nhỏ học hát, múa xòe và chăm ngoan vâng lời cô giáo Thảo. Ban Ban chúc các bạn luôn khỏe mạnh và vui tươi!',
+      speechNarration: 'Ban Ban vẫy những cánh hoa xinh xắn chúc tất cả các bạn nhỏ lớp 4-5 tuổi luôn chăm ngoan, mỗi ngày đến trường là một ngày vui!',
+      illustrationIdea: 'Ban Ban nở rộ rực rỡ vui chơi cùng các bạn nhỏ 4-5 tuổi ở trường mầm non.',
+      comprehensionQuestion: 'Ban Ban đã chúc các bạn nhỏ điều gì?',
     },
   ],
 };
 
-// 4. SỔ QUAN SÁT PHÁT TRIỂN MẪU (DÁN NHÃN MINH HỌA RÕ RÀNG)
+// 4. SỔ QUAN SÁT PHÁT TRIỂN MẪU (DÁN NHÃN MINH HỌA RÕ RÀNG - MẪU GIÁO NHỠ 4-5 TUỔI)
 export const SEED_OBSERVATIONS: ObservationRecord[] = [
   {
     id: 'obs-01',
     date: '2026-10-25',
-    childCode: 'Bé A (Minh họa)',
-    activityName: 'Vườn hoa đếm số (phạm vi 10)',
+    childCode: 'Bé A (4-5 tuổi)',
+    activityName: 'Vườn hoa đếm số (phạm vi 5)',
     participation: 'Tích cực',
-    languageBehavior: 'Đếm to, rõ ràng từ 1 đến 10, phát âm chuẩn các số 4, 5, 7.',
-    cognitionBehavior: 'Nhận biết số lượng nhanh, tự sửa sai khi đếm nhầm số 8 với số 9.',
-    independenceBehavior: 'Tự tin chọn đáp án trên màn hình tương tác, không cần cô nhắc nhở.',
+    languageBehavior: 'Đếm to, rõ ràng từ 1 đến 5, phát âm chuẩn các từ hoa ban, số bốn, số năm.',
+    cognitionBehavior: 'Nhận biết số lượng nhanh, chạm tay đếm tuần tự từng bông hoa không bỏ sót.',
+    independenceBehavior: 'Tự tin chọn đáp án trên màn hình tương tác, hào hứng khi hoa ban nở.',
     socialBehavior: 'Biết nhường bạn bên cạnh cùng bấm câu hỏi tiếp theo.',
-    supportNotes: 'Khuyến khích bé thử thách thêm trò chơi tách gộp nhóm hoa ban.',
-    teacherNote: 'Bé rất có khiếu toán học mầm non, tư duy logic tốt.',
+    supportNotes: 'Khuyến khích bé thử thách thêm đếm mở rộng trong phạm vi 6-7.',
+    teacherNote: 'Bé rất có khiếu toán học mầm non, tư duy trực quan tốt.',
     createdAt: '2026-10-25T09:30:00.000Z',
   },
   {
     id: 'obs-02',
     date: '2026-10-26',
-    childCode: 'Bé B (Minh họa)',
+    childCode: 'Bé B (4-5 tuổi)',
     activityName: 'Ngôi nhà hình học & Nhận biết vật thật',
     participation: 'Tích cực',
     languageBehavior: 'Nói được trọn câu: "Thưa cô, chiếc bánh chưng là hình vuông ạ!".',
-    cognitionBehavior: 'Phân biệt chính xác hình tròn, hình tam giác; cần thêm thời gian với hình chữ nhật.',
+    cognitionBehavior: 'Phân biệt chính xác hình tròn, hình tam giác, hình vuông trong lớp học.',
     independenceBehavior: 'Tự cất dọn thẻ hình sau khi kết thúc trò chơi.',
     socialBehavior: 'Hòa đồng, biết vỗ tay khen ngợi khi bạn trả lời đúng.',
     supportNotes: 'Cho bé làm quen thêm đồ vật dạng hình chữ nhật trong sinh hoạt hằng ngày.',
@@ -1065,24 +1065,24 @@ export const SEED_OBSERVATIONS: ObservationRecord[] = [
   {
     id: 'obs-03',
     date: '2026-10-27',
-    childCode: 'Bé C (Minh họa)',
-    activityName: 'Bé chọn điều hay & Hành trang vào lớp Một',
+    childCode: 'Bé C (4-5 tuổi)',
+    activityName: 'Bé chọn điều hay & Thói quen tự lập',
     participation: 'Trung bình',
-    languageBehavior: 'Còn hơi ngập ngừng khi phát biểu, nhưng diễn đạt đúng ý.',
-    cognitionBehavior: 'Nhận biết đúng các đồ dùng học tập: bút chì, hộp sáp màu, cặp sách.',
-    independenceBehavior: 'Biết tự mở ba lô và xếp hộp bút vào ngay ngắn.',
-    socialBehavior: 'Hơi nhút nhát khi đứng trước đông bạn, thích chơi theo nhóm đôi.',
+    languageBehavior: 'Nói câu ngắn rõ ràng, biết chào hỏi cô giáo khi vào lớp.',
+    cognitionBehavior: 'Nhận biết đúng hành vi đẹp: rửa tay trước khi ăn, cất đồ chơi gọn gàng.',
+    independenceBehavior: 'Biết tự cởi giày dép và để lên giá dép của lớp.',
+    socialBehavior: 'Hơi nhút nhát khi đứng trước đông bạn, thích chơi theo nhóm nhỏ.',
     supportNotes: 'Cô Thảo thường xuyên gọi bé lên tương tác nhẹ nhàng để tạo sự tự tin.',
-    teacherNote: 'Bé cần được khích lệ tâm lý tích cực để tự tin bước vào môi trường tiểu học.',
+    teacherNote: 'Bé cần được khích lệ thường xuyên để tự tin bộc lộ bản thân.',
     createdAt: '2026-10-27T10:45:00.000Z',
   },
 ];
 
-// STORAGE KEYS
-const STORAGE_KEY_QUESTIONS = 'hoaban_ai_questions_v2026';
-const STORAGE_KEY_LESSONS = 'hoaban_ai_lessons_v2026';
-const STORAGE_KEY_OBSERVATIONS = 'hoaban_ai_observations_v2026';
-const STORAGE_KEY_STORY = 'hoaban_ai_story_v2026';
+// STORAGE KEYS CẬP NHẬT CHO TRẺ 4-5 TUỔI
+const STORAGE_KEY_QUESTIONS = 'hoaban_ai_questions_v2026_4_5';
+const STORAGE_KEY_LESSONS = 'hoaban_ai_lessons_v2026_4_5';
+const STORAGE_KEY_OBSERVATIONS = 'hoaban_ai_observations_v2026_4_5';
+const STORAGE_KEY_STORY = 'hoaban_ai_story_v2026_4_5';
 const STORAGE_KEY_PROFILE = 'hoaban_ai_teacher_profile_v2026';
 const STORAGE_KEY_AUTH = 'hoaban_ai_teacher_authenticated';
 

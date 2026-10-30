@@ -54,7 +54,7 @@ export const VoiceStudio: React.FC = () => {
           Kiểm Tra &amp; Tinh Chỉnh Giọng Đọc Sư Phạm
         </h1>
         <p className="mt-2 text-sm text-slate-700 max-w-xl">
-          Nơi cô giáo Trần Thị Bích Thảo nghe thử các câu lệnh mầm non, điều chỉnh tốc độ đọc chậm rãi, dịu dàng, tự nhiên phù hợp với tâm lý trẻ 5–6 tuổi.
+          Nơi cô giáo Trần Thị Bích Thảo nghe thử các câu lệnh mầm non, điều chỉnh tốc độ đọc chậm rãi, dịu dàng, tự nhiên phù hợp với tâm lý trẻ 4–5 tuổi (mẫu giáo nhỡ).
         </p>
       </div>
 

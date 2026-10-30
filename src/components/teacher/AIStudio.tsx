@@ -224,7 +224,7 @@ export const AIStudio: React.FC<AIStudioProps> = ({
               Tạo Ngân Hàng Học Liệu Bằng Trí Tuệ Nhân Tạo
             </h1>
             <p className="mt-2 text-sm text-slate-700 max-w-2xl leading-relaxed">
-              Trợ lý AI giúp giáo viên mầm non tự động sinh 10, 20, 50, 100 câu hỏi tương tác chuẩn mực, có giọng đọc tiếng Việt, kiểm duyệt sư phạm và xuất bản thẳng vào trò chơi cho trẻ mà không cần sửa code.
+              Trợ lý AI giúp giáo viên mầm non tự động sinh 10, 20, 50, 100 câu hỏi tương tác chuẩn mực cho trẻ mẫu giáo nhỡ 4–5 tuổi, có giọng đọc tiếng Việt, kiểm duyệt sư phạm và xuất bản thẳng vào trò chơi cho trẻ mà không cần sửa code.
             </p>
           </div>
 
@@ -248,7 +248,7 @@ export const AIStudio: React.FC<AIStudioProps> = ({
       <div className="bg-white rounded-3xl p-6 md:p-8 border border-slate-200 shadow-sm mb-8">
         <h2 className="text-lg font-black text-slate-900 mb-6 flex items-center gap-2">
           <Layers className="w-5 h-5 text-[#9B7BC0]" />
-          <span>1. Thiết Lập Yêu Cầu Học Liệu Mầm Non</span>
+          <span>1. Thiết Lập Yêu Cầu Học Liệu Mầm Non (4–5 Tuổi)</span>
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
@@ -307,7 +307,7 @@ export const AIStudio: React.FC<AIStudioProps> = ({
               className="w-full p-3 rounded-xl border border-slate-300 bg-white text-sm font-semibold focus:outline-none focus:ring-2 focus:ring-[#9B7BC0]"
             >
               <option value="support">Cần hướng dẫn thêm (có gợi ý chạm)</option>
-              <option value="basic">Khám phá cơ bản (tiêu chuẩn mầm non)</option>
+              <option value="basic">Khám phá cơ bản (tiêu chuẩn 4–5 tuổi)</option>
               <option value="challenge">Thử thách mở rộng (phát triển tư duy)</option>
             </select>
           </div>

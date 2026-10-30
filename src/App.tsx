@@ -134,11 +134,11 @@ export default function App() {
                   </div>
 
                   <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 tracking-tight leading-tight">
-                    Mỗi Bé Một Hành Trình Khám Phá, Tự Tin Bước Vào Lớp Một
+                    Mỗi Bé Một Hành Trình Khám Phá, Tự Tin Tỏa Sáng
                   </h1>
 
                   <p className="mt-3.5 text-base md:text-lg text-slate-700 font-semibold leading-relaxed">
-                    Ứng dụng giáo dục thông minh chuẩn hóa giọng đọc tiếng Việt, cá nhân hóa học qua chơi, đồng hành cùng trẻ 5–6 tuổi và giáo viên Trần Thị Bích Thảo.
+                    Ứng dụng giáo dục thông minh chuẩn hóa giọng đọc tiếng Việt, cá nhân hóa học qua chơi, đồng hành cùng trẻ mẫu giáo nhỡ 4–5 tuổi và giáo viên Trần Thị Bích Thảo.
                   </p>
 
                   {/* Nút hành động nổi bật */}
@@ -197,7 +197,7 @@ export default function App() {
                     </span>
                     <div>
                       <h2 className="text-xl font-black text-slate-900 tracking-tight">
-                        Khu Vực Dành Cho Bé (5–6 Tuổi)
+                        Khu Vực Dành Cho Bé (4–5 Tuổi)
                       </h2>
                       <p className="text-xs text-slate-500 font-medium">
                         Chạm ngón tay để học qua chơi, nghe lời cô Thảo và Ban Ban dặn dò
@@ -224,7 +224,7 @@ export default function App() {
                         Bé Làm Quen Toán
                       </h3>
                       <p className="text-xs text-slate-600 mt-0.5">
-                        Vườn hoa đếm số 1 đến 10
+                        Vườn hoa đếm số phạm vi 5 (mở rộng 7)
                       </p>
                     </div>
                     <span className="text-xs font-bold text-[#9B7BC0]">Chơi ngay →</span>
@@ -421,13 +421,13 @@ export default function App() {
           <div className="max-w-5xl mx-auto space-y-8 pb-16">
             <div className="text-center max-w-2xl mx-auto">
               <span className="px-3.5 py-1 rounded-full bg-[#FBE1EC] text-[#9B7BC0] text-xs font-black uppercase tracking-wider mb-2 inline-block">
-                CHƯƠNG TRÌNH PHÁT TRIỂN NĂNG LỰC 5–6 TUỔI
+                CHƯƠNG TRÌNH PHÁT TRIỂN NĂNG LỰC 4–5 TUỔI (MẪU GIÁO NHỠ)
               </span>
               <h1 className="text-2xl md:text-3xl font-black text-slate-900">
                 Bé Học Vui Cùng Cô Thảo &amp; Ban Ban
               </h1>
               <p className="text-sm text-slate-600 mt-1">
-                Các chuyên đề được phân hóa theo mức độ hứng thú và khả năng nhận biết của từng em bé.
+                Các chuyên đề được thiết kế chuẩn tâm lý lứa tuổi 4–5 tuổi, học qua chơi, nhận biết và tự lập.
               </p>
             </div>
 
@@ -437,7 +437,7 @@ export default function App() {
                   <span className="text-3xl">🌸</span>
                   <h3 className="font-black text-slate-900 text-lg mt-3">Làm Quen Với Toán</h3>
                   <p className="text-xs text-slate-600 mt-2 leading-relaxed">
-                    Đếm số lượng trong phạm vi 10, nhận biết hình tròn, vuông, tam giác, chữ nhật qua thế giới thực vật Điện Biên.
+                    Đếm số lượng trong phạm vi 5 (mở rộng 7), nhận biết hình tròn, vuông, tam giác, chữ nhật qua thế giới thực vật Điện Biên.
                   </p>
                 </div>
                 <button

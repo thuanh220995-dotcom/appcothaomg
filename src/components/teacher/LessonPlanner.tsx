@@ -14,10 +14,10 @@ export const LessonPlanner: React.FC<LessonPlannerProps> = ({
   onRequireAuth,
 }) => {
   const [topic, setTopic] = useState('Quê hương Điện Biên');
-  const [title, setTitle] = useState('Khám phá hoa ban Điện Biên và đếm số lượng 1-10');
+  const [title, setTitle] = useState('Khám phá hoa ban Điện Biên và đếm số lượng trong phạm vi 5');
   const [domain, setDomain] = useState('Phát triển nhận thức');
-  const [duration, setDuration] = useState('30 - 35 phút');
-  const [supplies, setSupplies] = useState('Màn hình tương tác Hoa Ban AI, hoa ban giấy xốp, tranh đồi A1, thẻ số 1-10');
+  const [duration, setDuration] = useState('25 - 30 phút');
+  const [supplies, setSupplies] = useState('Màn hình tương tác Hoa Ban AI, hoa ban giấy xốp, tranh hoa ban bản làng, thẻ số 1-5');
   const [isLoading, setIsLoading] = useState(false);
   const [currentPlan, setCurrentPlan] = useState<LessonPlan | null>(null);
   const [savedSuccess, setSavedSuccess] = useState(false);
@@ -61,12 +61,12 @@ export const LessonPlanner: React.FC<LessonPlannerProps> = ({
           title: raw.title || title,
           topic,
           domain: raw.domain || domain,
-          ageGroup: '5 - 6 tuổi',
+          ageGroup: '4 - 5 tuổi',
           duration: raw.duration || duration,
           objectives: raw.objectives || {
-            knowledge: 'Trẻ nhận biết hoa ban và số lượng trong phạm vi 10.',
-            skills: 'Kỹ năng đếm, thao tác tương tác trên màn hình.',
-            attitude: 'Yêu thiên nhiên quê hương.',
+            knowledge: 'Trẻ nhận biết hoa ban và số lượng trong phạm vi 5.',
+            skills: 'Kỹ năng đếm chạm tuần tự, thao tác tương tác trên màn hình.',
+            attitude: 'Yêu quý thiên nhiên quê hương.',
           },
           preparation: raw.preparation || {
             teacher: supplies,

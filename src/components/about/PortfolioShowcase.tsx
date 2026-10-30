@@ -48,7 +48,7 @@ export const PortfolioShowcase: React.FC = () => {
           <span>·</span>
           <span>🏫 Đơn vị: <strong>Trường Mầm non Thanh Yên, huyện Điện Biên, tỉnh Điện Biên</strong></span>
           <span>·</span>
-          <span>🧒 Đối tượng: <strong>Trẻ mẫu giáo 5–6 tuổi</strong></span>
+          <span>🧒 Đối tượng: <strong>Trẻ mẫu giáo nhỡ 4–5 tuổi</strong></span>
         </div>
       </div>
 
@@ -106,7 +106,7 @@ export const PortfolioShowcase: React.FC = () => {
             <div>
               <strong className="text-slate-900 block font-bold">2. Vườn 6 trò chơi tương tác mầm non:</strong>
               <p className="text-slate-700 mt-0.5">
-                Vườn hoa đếm số 1-10; Ngôi nhà hình học; Tai tin - Mắt sáng; Bé chọn điều hay (kỹ năng sống); Chuyện kể cùng Ban Ban; Hành trang vào lớp Một. Toàn bộ câu hỏi được tải động từ ngân hàng đã duyệt, hỗ trợ chạm cảm ứng trực tiếp trên máy tính bảng và màn hình tương tác.
+                Vườn hoa đếm số 1–5 (mở rộng 7); Ngôi nhà hình học; Tai tin - Mắt sáng; Bé chọn điều hay (kỹ năng sống); Chuyện kể cùng Ban Ban; Hành trang tự lập cho bé 4–5 tuổi. Toàn bộ câu hỏi được tải động từ ngân hàng đã duyệt, hỗ trợ chạm cảm ứng trực tiếp trên máy tính bảng và màn hình tương tác.
               </p>
             </div>
           </div>

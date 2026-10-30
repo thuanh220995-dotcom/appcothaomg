@@ -65,7 +65,7 @@ export const ObservationJournal: React.FC<ObservationJournalProps> = ({
               Nhật Ký Đồng Hành &amp; Cá Nhân Hóa Của Cô Thảo
             </h1>
             <p className="mt-2 text-sm text-slate-700 max-w-xl">
-              Ghi chép sự tiến bộ của từng bé theo 4 lĩnh vực trọng tâm: Ngôn ngữ, Nhận thức, Tính tự lập và Giao tiếp xã hội nhằm chuẩn bị tâm thế tự tin nhất vào lớp Một.
+              Ghi chép sự tiến bộ của từng bé theo 4 lĩnh vực trọng tâm: Ngôn ngữ, Nhận thức, Tính tự lập và Giao tiếp xã hội phù hợp với giai đoạn phát triển của trẻ mẫu giáo nhỡ 4–5 tuổi.
             </p>
           </div>
 

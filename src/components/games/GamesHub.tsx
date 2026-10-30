@@ -29,7 +29,7 @@ export const GamesHub: React.FC<GamesHubProps> = ({ initialGame = null }) => {
     {
       type: 'counting',
       title: 'Vườn Hoa Đếm Số',
-      subtitle: 'Nhận biết số lượng 1 – 10',
+      subtitle: 'Nhận biết số lượng 1 – 5 (mở rộng 7)',
       badge: 'Toán Mầm Non',
       bgColor: 'bg-gradient-to-br from-[#FFF2F7] to-[#FBE1EC]',
       textColor: 'text-[#9B7BC0]',
@@ -80,11 +80,11 @@ export const GamesHub: React.FC<GamesHubProps> = ({ initialGame = null }) => {
       type: 'grade1_prep',
       title: 'Hành Trang Vào Lớp Một',
       subtitle: 'Tâm thế tự tin bước vào trường mới',
-      badge: 'Chuẩn Bị Vào Lớp 1',
+      badge: 'Kỹ Năng & Tự Lập',
       bgColor: 'bg-gradient-to-br from-[#FEF9C3] to-[#FEF08A]',
       textColor: 'text-[#CA8A04]',
       icon: '🎒',
-      description: 'Tự sắp xếp ba lô, nhận biết đồ dùng học tập lớp Một, rèn luyện tính tự lập và ngăn nắp.',
+      description: 'Tự sắp xếp ba lô, nhận biết đồ dùng học tập, rèn luyện tính tự lập và nề nếp cho trẻ 4–5 tuổi.',
     },
   ];
 
@@ -113,7 +113,7 @@ export const GamesHub: React.FC<GamesHubProps> = ({ initialGame = null }) => {
           Học Qua Chơi – Tự Tin Tỏa Sáng
         </h1>
         <p className="mt-2 text-slate-600 max-w-xl mx-auto text-sm md:text-base">
-          Mỗi trò chơi được thiết kế chuẩn sư phạm mầm non cho trẻ 5–6 tuổi, kết hợp giọng đọc tiếng Việt dịu dàng và tương tác chạm cảm ứng tự nhiên.
+          Mỗi trò chơi được thiết kế chuẩn sư phạm mầm non cho trẻ mẫu giáo nhỡ 4–5 tuổi, kết hợp giọng đọc tiếng Việt dịu dàng và tương tác chạm cảm ứng tự nhiên.
         </p>
       </div>
 

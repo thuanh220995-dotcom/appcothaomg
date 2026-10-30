@@ -61,20 +61,20 @@ app.post('/api/gemini/generate', async (req, res) => {
       const targetCount = Math.min(Math.max(Number(count) || 5, 1), 50); // safe batch limit per API request
 
       const systemInstruction = `Bạn là chuyên gia giáo dục mầm non Việt Nam cao cấp và trợ lý ảo của Cô giáo Trần Thị Bích Thảo, Trường Mầm non Thanh Yên, Điện Biên.
-Nhiệm vụ: Tạo ${targetCount} câu hỏi giáo dục tương tác cho trẻ mẫu giáo 5-6 tuổi chuẩn bị vào lớp Một.
+Nhiệm vụ: Tạo ${targetCount} câu hỏi giáo dục tương tác cho trẻ mẫu giáo nhỡ 4-5 tuổi (phát triển nhận thức, ngôn ngữ, kỹ năng sống và tâm thế hào hứng).
 Chủ đề: "${topic}".
-Loại trò chơi: "${gameType}" (counting: đếm số 1-10; shapes: nhận biết hình tròn, vuông, tam giác, chữ nhật; listening: nghe nhận biết đồ vật/con vật; behavior: chọn hành vi đẹp, kỹ năng sống; grade1_prep: chuẩn bị đồ dùng, thói quen vào lớp Một).
-Mức hỗ trợ: "${supportLevel}" (support: có gợi ý đơn giản; basic: tiêu chuẩn; challenge: mở rộng tư duy).
+Loại trò chơi: "${gameType}" (counting: đếm số trong phạm vi 1-5 hoặc 1-7 phù hợp độ tuổi 4-5; shapes: nhận biết hình tròn, vuông, tam giác, chữ nhật; listening: nghe nhận biết đồ vật/con vật quen thuộc; behavior: chọn hành vi đẹp, thói quen tốt; grade1_prep: làm quen thói quen tự lập, nhận biết đồ dùng học tập).
+Mức hỗ trợ: "${supportLevel}" (support: có gợi ý đơn giản; basic: tiêu chuẩn lứa tuổi 4-5; challenge: mở rộng tư duy nhẹ nhàng).
 YÊU CẦU BẮT BUỘC:
-- 100% tiếng Việt chuẩn có dấu, ngữ điệu dịu dàng, trong sáng, khích lệ trẻ.
-- Câu hỏi ngắn gọn, dễ hiểu cho trẻ 5-6 tuổi.
+- 100% tiếng Việt chuẩn có dấu, ngữ điệu dịu dàng, trong sáng, câu từ ngắn gọn, khích lệ trẻ 4-5 tuổi.
+- Câu hỏi ngắn gọn, trực quan, gần gũi với trẻ 4-5 tuổi.
 - 'speechText' là câu văn tự nhiên dùng để phát âm thanh tiếng Việt (ví dụ: "Bé ơi, con hãy đếm xem có bao nhiêu bông hoa ban nở nhé!").
-- 'options' gồm 3 hoặc 4 lựa chọn ngắn gọn.
+- 'options' gồm 3 lựa chọn ngắn gọn, có hình ảnh hoặc biểu tượng trực quan.
 - 'correctAnswer' phải trùng khớp với 1 trong các lựa chọn.
-- 'explanation' giải thích ngắn gọn, dễ thương khi trẻ làm đúng hoặc cần xem lại.
+- 'explanation' giải thích ngắn gọn, dịu dàng, dễ thương khi trẻ làm đúng hoặc cần thử lại.
 - Trả về đúng JSON Schema đã quy định.`;
 
-      const prompt = `Hãy tạo ${targetCount} câu hỏi độc đáo, không trùng lặp cho chủ đề "${topic}". ${customPrompt ? `Ghi chú thêm của giáo viên: ${customPrompt}` : ''}`;
+      const prompt = `Hãy tạo ${targetCount} câu hỏi độc đáo, không trùng lặp cho chủ đề "${topic}" dành cho trẻ mẫu giáo nhỡ 4-5 tuổi. ${customPrompt ? `Ghi chú thêm của giáo viên: ${customPrompt}` : ''}`;
 
       const response = await ai.models.generateContent({
         model: 'gemini-3.8-flash',
@@ -123,10 +123,10 @@ YÊU CẦU BẮT BUỘC:
     if (type === 'lesson_plan') {
       const details = lessonDetails || {};
       const systemInstruction = `Bạn là chuyên gia sư phạm mầm non Việt Nam và Trợ lý AI của Cô giáo Trần Thị Bích Thảo (Trường Mầm non Thanh Yên, huyện Điện Biên).
-Nhiệm vụ: Soạn giáo án / kế hoạch hoạt động giáo dục mầm non chuẩn cho trẻ mẫu giáo 5-6 tuổi theo phương pháp giáo dục lấy trẻ làm trung tâm, học qua chơi.
+Nhiệm vụ: Soạn giáo án / kế hoạch hoạt động giáo dục mầm non chuẩn cho trẻ mẫu giáo nhỡ 4-5 tuổi theo phương pháp giáo dục lấy trẻ làm trung tâm, học qua chơi.
 Kế hoạch phải bao gồm đủ 12 phần chuẩn mực của Bộ Giáo dục & Đào tạo Việt Nam:
 1. Tên hoạt động & Đề tài
-2. Mục tiêu (Kiến thức, Kỹ năng, Thái độ)
+2. Mục tiêu (Kiến thức, Kỹ năng, Thái độ phù hợp lứa tuổi 4-5 tuổi)
 3. Chuẩn bị (Đồ dùng của cô, Đồ dùng của trẻ, Địa điểm)
 4. Hoạt động gây hứng thú (3-5 phút)
 5. Hoạt động trọng tâm (Khám phá / Trải nghiệm chính)
@@ -142,7 +142,8 @@ Kế hoạch phải bao gồm đủ 12 phần chuẩn mực của Bộ Giáo d�
 - Chủ đề: ${topic}
 - Đề tài: ${details.title || 'Khám phá hoa ban Điện Biên'}
 - Lĩnh vực phát triển: ${details.domain || 'Phát triển nhận thức'}
-- Thời lượng: ${details.duration || '30 - 35 phút'}
+- Độ tuổi: 4 - 5 tuổi (Lớp mẫu giáo nhỡ)
+- Thời lượng: ${details.duration || '25 - 30 phút'}
 - Điều kiện & Đồ dùng sẵn có: ${details.supplies || 'Đồ dùng mầm non, máy tính bảng/màn hình tương tác Hoa Ban AI, hoa ban giấy, bảng số'}`;
 
       const response = await ai.models.generateContent({
@@ -219,10 +220,10 @@ Kế hoạch phải bao gồm đủ 12 phần chuẩn mực của Bộ Giáo d�
     // 3. GENERATE STORY / POEM FOR BAN BAN
     if (type === 'story' || type === 'poem') {
       const systemInstruction = `Bạn là tác giả văn học thiếu nhi Việt Nam và trợ lý của Cô giáo Trần Thị Bích Thảo.
-Hãy sáng tác một ${type === 'story' ? 'câu chuyện tranh ngắn 4-5 phân đoạn' : 'bài thơ 4-5 khổ 4 chữ dễ nhớ'} cho trẻ mẫu giáo 5-6 tuổi.
+Hãy sáng tác một ${type === 'story' ? 'câu chuyện tranh ngắn 4-5 phân đoạn' : 'bài thơ 4-5 khổ 4 chữ dễ nhớ'} cho trẻ mẫu giáo nhỡ 4-5 tuổi.
 Nhân vật chính: Bé hoa ban tên "Ban Ban" vui vẻ, thông minh.
 Bối cảnh: Trường Mầm non Thanh Yên, cánh đồng thung lũng Mường Thanh hoặc núi đồi hoa ban Điện Biên.
-Thông điệp: Yêu thiên nhiên quê hương, gắn kết bạn bè, chăm ngoan tự tin chuẩn bị vào lớp Một.`;
+Thông điệp: Yêu thiên nhiên quê hương, gắn kết bạn bè, chăm ngoan vâng lời cô giáo và ba mẹ.`;
 
       const response = await ai.models.generateContent({
         model: 'gemini-3.8-flash',
